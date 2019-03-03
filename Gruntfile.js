@@ -107,7 +107,7 @@ module.exports = function (grunt) {
             js: {
                 files: ['static/js/**/*.js'],
                 options: {livereload: true},
-                tasks: ['js-lint', 'js-build']
+                tasks: ['js-build']
             },
             json: {
                 files: ['static/data/*.json', 'static/locales/*.json'],
